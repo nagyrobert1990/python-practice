@@ -1,0 +1,19 @@
+status: 200
+access-control-allow-methods: GET, OPTIONS, POST
+x-ratelimit-reset: 1512990012
+access-control-expose-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range
+-content-encoding: gzip
+x-proxy-cache: MISS
+x-ratelimit-remaining: 74
+access-control-allow-origin: *
+date: Mon, 11 Dec 2017 10:00:12 GMT
+access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range
+server: openresty/1.11.2.2
+content-length: 564
+x-ratelimit-limit: 75
+content-type: application/json; charset=utf-8
+x-iplb-instance: 12422
+x-cache-key: api.weatherbit.io/v2.0/current?city=Szeged,HU&key=26ac1863d12d4352a00241f9ba73361e
+content-location: https://api.weatherbit.io/v2.0/current?city=Szeged,HU&key=26ac1863d12d4352a00241f9ba73361e
+
+{"data":[{"rh":65,"pod":"d","pres":992.33,"timezone":"Europe\/Budapest","weather":{"icon":"c01d","code":"800","description":"Clear sky"},"country_code":"HU","clouds":0,"vis":10,"wind_spd":6.2,"wind_cdir_full":"south","app_temp":3.5,"lon":20.14824,"state_code":"06","ts":1512983700,"elev_angle":16,"h_angle":-22.5,"dewpt":1,"ob_time":"2017-12-11 09:15","uv":3,"sunset":"14:52","sunrise":"06:16","city_name":"Szeged","precip":null,"station":"LHKE","lat":46.253,"dhi":597.2,"datetime":"2017-12-11:09","temp":7.2,"wind_dir":170,"slp":1004,"wind_cdir":"S"}],"count":1}

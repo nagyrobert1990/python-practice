@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Choose a city</h1>
+
+    <form action="/city" id="citiform">
+        <select name="city" form="citiform">
+            {%for city in cities%}
+                <option value="{{city}}">{{city}}</option>
+            {% endfor %}
+        </select>
+        <input type="submit" value="CHOOSE">
+    </form>
+</body>
+</html>

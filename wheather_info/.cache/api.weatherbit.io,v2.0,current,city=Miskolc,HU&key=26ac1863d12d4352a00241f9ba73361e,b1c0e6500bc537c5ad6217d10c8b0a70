@@ -1,0 +1,19 @@
+status: 200
+access-control-expose-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range
+x-cache-key: api.weatherbit.io/v2.0/current?city=Miskolc,HU&key=26ac1863d12d4352a00241f9ba73361e
+-content-encoding: gzip
+date: Mon, 04 Dec 2017 13:28:58 GMT
+x-ratelimit-limit: 75
+content-location: https://api.weatherbit.io/v2.0/current?city=Miskolc,HU&key=26ac1863d12d4352a00241f9ba73361e
+access-control-allow-origin: *
+x-iplb-instance: 12423
+content-length: 570
+access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range
+server: openresty/1.11.2.2
+content-type: application/json; charset=utf-8
+x-proxy-cache: MISS
+x-ratelimit-reset: 1512396800
+access-control-allow-methods: GET, OPTIONS, POST
+x-ratelimit-remaining: 73
+
+{"data":[{"rh":86,"pod":"d","pres":998.89,"timezone":"Europe\/Budapest","weather":{"icon":"c03d","code":"803","description":"Broken clouds"},"country_code":"HU","clouds":75,"vis":10,"wind_spd":2.1,"wind_cdir_full":"south","app_temp":-2.8,"lon":20.78333,"state_code":"04","ts":1512392400,"elev_angle":11,"h_angle":67.5,"dewpt":-2.1,"ob_time":"2017-12-04 13:00","uv":2,"sunset":"14:40","sunrise":"06:10","city_name":"Miskolc","precip":null,"station":"LZKZ","lat":48.1,"dhi":116,"datetime":"2017-12-04:13","temp":-0.1,"wind_dir":180,"slp":1019,"wind_cdir":"S"}],"count":1}

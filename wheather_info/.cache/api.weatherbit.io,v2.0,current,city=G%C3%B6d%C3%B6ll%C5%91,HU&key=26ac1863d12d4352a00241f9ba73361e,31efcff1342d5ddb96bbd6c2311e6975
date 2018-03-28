@@ -1,0 +1,19 @@
+status: 200
+x-cache-key: api.weatherbit.io/v2.0/current?city=G%C3%B6d%C3%B6ll%C5%91,HU&key=26ac1863d12d4352a00241f9ba73361e
+x-ratelimit-reset: 1512396800
+access-control-allow-origin: *
+-content-encoding: gzip
+access-control-allow-methods: GET, OPTIONS, POST
+access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range
+date: Mon, 04 Dec 2017 13:59:37 GMT
+access-control-expose-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range
+content-type: application/json; charset=utf-8
+x-ratelimit-limit: 75
+x-ratelimit-remaining: 69
+x-iplb-instance: 12422
+content-length: 594
+content-location: https://api.weatherbit.io/v2.0/current?city=G%C3%B6d%C3%B6ll%C5%91,HU&key=26ac1863d12d4352a00241f9ba73361e
+server: openresty/1.11.2.2
+x-proxy-cache: MISS
+
+{"data":[{"rh":85,"pod":"d","pres":997.59,"timezone":"Europe\/Budapest","weather":{"icon":"r01d","code":"500","description":"Light Rain"},"country_code":"HU","clouds":75,"vis":2,"wind_spd":0.89,"wind_cdir_full":"west-southwest","lon":19.35515,"app_temp":1.1,"state_code":"16","lat":47.59657,"ts":1512394380,"elev_angle":12,"h_angle":67.5,"dewpt":-0.8,"snow":0,"uv":2,"ob_time":"2017-12-04 13:33","sunrise":"06:14","sunset":"14:52","precip":0.5,"station":"C5468","city_name":"Gödöllő","dhi":119,"datetime":"2017-12-04:13","temp":1.5,"wind_dir":242,"slp":1021.5,"wind_cdir":"WSW"}],"count":1}

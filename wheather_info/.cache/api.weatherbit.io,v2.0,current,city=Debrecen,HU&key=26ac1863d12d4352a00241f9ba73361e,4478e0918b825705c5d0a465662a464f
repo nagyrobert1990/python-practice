@@ -1,0 +1,19 @@
+status: 200
+server: openresty/1.11.2.2
+access-control-allow-origin: *
+date: Mon, 04 Dec 2017 14:03:04 GMT
+x-proxy-cache: HIT
+x-cache-key: api.weatherbit.io/v2.0/current?city=Debrecen,HU&key=26ac1863d12d4352a00241f9ba73361e
+x-iplb-instance: 12423
+-content-encoding: gzip
+access-control-expose-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range
+x-ratelimit-limit: 75
+content-location: https://api.weatherbit.io/v2.0/current?city=Debrecen,HU&key=26ac1863d12d4352a00241f9ba73361e
+access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range
+x-ratelimit-reset: 1512396800
+x-ratelimit-remaining: 65
+access-control-allow-methods: GET, OPTIONS, POST
+content-length: 585
+content-type: application/json; charset=utf-8
+
+{"data":[{"rh":86,"pod":"d","pres":1005.72,"timezone":"Europe\/Budapest","weather":{"icon":"c04d","code":"804","description":"Overcast clouds"},"country_code":"HU","clouds":100,"vis":10,"wind_spd":6.7,"wind_cdir_full":"southwest","app_temp":-5.9,"lon":21.63333,"state_code":"10","ts":1512393300,"elev_angle":11,"h_angle":67.5,"dewpt":-2.3,"ob_time":"2017-12-04 13:15","uv":2,"sunset":"14:43","sunrise":"06:04","city_name":"Debrecen","precip":null,"station":"LHDC","lat":47.53333,"dhi":76.8,"datetime":"2017-12-04:13","temp":-0.1,"wind_dir":230,"slp":1021,"wind_cdir":"SW"}],"count":1}

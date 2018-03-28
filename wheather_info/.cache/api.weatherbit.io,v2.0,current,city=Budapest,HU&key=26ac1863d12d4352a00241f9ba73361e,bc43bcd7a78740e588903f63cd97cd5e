@@ -1,0 +1,19 @@
+status: 200
+x-cache-key: api.weatherbit.io/v2.0/current?city=Budapest,HU&key=26ac1863d12d4352a00241f9ba73361e
+x-ratelimit-reset: 1512396800
+access-control-allow-origin: *
+-content-encoding: gzip
+access-control-allow-methods: GET, OPTIONS, POST
+access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range
+date: Mon, 04 Dec 2017 14:00:29 GMT
+access-control-expose-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range
+content-type: application/json; charset=utf-8
+x-ratelimit-limit: 75
+x-ratelimit-remaining: 67
+x-iplb-instance: 12422
+content-length: 583
+content-location: https://api.weatherbit.io/v2.0/current?city=Budapest,HU&key=26ac1863d12d4352a00241f9ba73361e
+server: openresty/1.11.2.2
+x-proxy-cache: MISS
+
+{"data":[{"rh":80,"pod":"d","pres":1005.8,"timezone":"Europe\/Budapest","weather":{"icon":"r01d","code":"500","description":"Light Rain"},"country_code":"HU","clouds":75,"vis":2,"wind_spd":0.89,"wind_cdir_full":"south","lon":19.03991,"app_temp":1.9,"state_code":"05","lat":47.49801,"ts":1512394200,"elev_angle":12,"h_angle":67.5,"dewpt":-0.8,"snow":0,"uv":2,"ob_time":"2017-12-04 13:30","sunrise":"06:14","sunset":"14:54","precip":0.5,"station":"E4670","city_name":"Budapest","dhi":119.5,"datetime":"2017-12-04:13","temp":2.2,"wind_dir":180,"slp":1022.9,"wind_cdir":"S"}],"count":1}

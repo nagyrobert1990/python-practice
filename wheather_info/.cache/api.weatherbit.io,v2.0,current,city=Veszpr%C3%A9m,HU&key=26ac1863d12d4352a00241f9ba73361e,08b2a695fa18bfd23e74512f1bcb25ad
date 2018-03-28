@@ -1,0 +1,19 @@
+status: 200
+access-control-expose-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range
+x-cache-key: api.weatherbit.io/v2.0/current?city=Veszpr%C3%A9m,HU&key=26ac1863d12d4352a00241f9ba73361e
+-content-encoding: gzip
+date: Mon, 04 Dec 2017 13:29:19 GMT
+x-ratelimit-limit: 75
+content-location: https://api.weatherbit.io/v2.0/current?city=Veszpr%C3%A9m,HU&key=26ac1863d12d4352a00241f9ba73361e
+access-control-allow-origin: *
+x-iplb-instance: 12423
+content-length: 583
+access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range
+server: openresty/1.11.2.2
+content-type: application/json; charset=utf-8
+x-proxy-cache: MISS
+x-ratelimit-reset: 1512396800
+access-control-allow-methods: GET, OPTIONS, POST
+x-ratelimit-remaining: 71
+
+{"data":[{"rh":69,"pod":"d","pres":1005.2,"timezone":"Europe\/Budapest","weather":{"icon":"s01d","code":"600","description":"Light snow"},"country_code":"HU","clouds":100,"vis":2,"wind_spd":4.1,"wind_cdir_full":"southwest","lon":17.91149,"app_temp":-3.1,"state_code":"23","lat":47.09327,"ts":1512391500,"elev_angle":13,"h_angle":36,"dewpt":-4.1,"snow":0,"uv":2,"ob_time":"2017-12-04 12:45","sunrise":"06:20","sunset":"15:00","precip":0.5,"station":"LHPA","city_name":"Veszprém","dhi":162.8,"datetime":"2017-12-04:13","temp":1,"wind_dir":220,"slp":1023,"wind_cdir":"SW"}],"count":1}

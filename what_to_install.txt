@@ -1,0 +1,19 @@
+git : https://www.liquidweb.com/kb/install-git-ubuntu-16-04-lts/
+
+python 3.x & pip
+
+slack : https://www.omgubuntu.co.uk/2018/01/install-slack-app-ubuntu
+
+Visual Studio Code : https://codecool.instructure.com/courses/68/pages/vs-code-an-editor-to-write-code?module_item_id=12398
+
+pycharm : https://itsfoss.com/install-pycharm-ubuntu/
+
+java9 : https://codecool.instructure.com/courses/68/pages/installing-java-9?module_item_id=14972
+
+intellij idea : https://codecool.instructure.com/courses/68/pages/installing-intellij-idea?module_item_id=16065
+
+maven : https://codecool.instructure.com/courses/68/pages/installing-maven?module_item_id=16066
+
+tomcat : https://codecool.instructure.com/courses/68/pages/install-tomcat-on-ubuntu?module_item_id=20957
+
+postgreSQL : https://codecool.instructure.com/courses/68/pages/installing-postgresql?module_item_id=21343
